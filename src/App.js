@@ -9,7 +9,7 @@ import ProtectedRoute from "./components/ProtectedRoutes";
 import Home from './components/Home';
 function App() {
   return (
-    <Container>
+    <Container style={{ width: "400px" }}>
       <Row>
         <Col>
           <UserAuthContextProvider>
